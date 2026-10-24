@@ -1,0 +1,777 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OPIUM STYLE</title>
+    <link rel="icon" type="image/png" href="media/favicon.png" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style type="text/tailwindcss">
+      @theme {
+        --spacing: 1px;
+      }
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      /* Sembunyiin scrollbar buat IE, Edge, dan Firefox */
+      .no-scrollbar {
+        -ms-overflow-style: none; /* IE dan Edge */
+        scrollbar-width: none; /* Firefox */
+      }
+    </style>
+  </head>
+  <body>
+
+    <header
+      class="border-b sticky top-0 flex w-full items-center justify-between border-slate-300 bg-white px-56"
+    >
+      <a href="#" class="flex items-center">
+        <img src="Media/Opium_logos.png" alt="Logo" width="48" />
+        <h1 class="text-[48px] font-mono font-black tracking-tighter ml-8">OPIUM</h1>
+      </a>
+
+      <nav>
+        <ul class="flex gap-24">
+          <li><a href="#" class="text-[24px] hover:underline">Home</a></li>
+          <li>
+            <a href="#about" class="text-[24px] hover:underline">About</a>
+          </li>
+          <li>
+            <a href="#collection" class="text-[24px] hover:underline"
+              >Collection</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="text-[24px] hover:underline">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- main area -->
+    <main>
+
+      <!-- top area -->
+      <section id="top" class="bg-black px-72 pb-56 pt-48 font-mono text-white">
+        <header>
+          <p class="text-[14px] text-yellow-400">MOST WANTED</p>
+          <h2 class="mb-24 text-[32px]">What Everyone Wants</h2>
+        </header>
+
+        <div class="flex gap-24">
+          <figure>
+            <img
+              src="Media/opium-harness-shirt-schwarz-s-fuga-studios-250.webp"
+              alt="opium-harness-shirt-schwarz-s-fuga-studios"
+              class="w-480"
+            />
+          </figure>
+
+          <figure>
+            <img
+              src="Media/opium-dragon-rhinestone-turtleneck-top-schwarz-s-434.webp"
+              alt="opium-dragon-rhinestone-turtleneck-top-schwarz-s"
+              class="w-480"
+            />
+          </figure>
+
+          <figure>
+            <img
+              src="Media/opium-racing-cobra-hoodie-schwarz-s-fuga-studios-464.webp"
+              alt="opium-racing-cobra-hoodie-schwarz-s-fuga-studios"
+              class="w-480"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <!-- opium description -->
+
+      <section id="about" class="scroll-mt-250 px-72 pb-72 pt-48">
+        <header>
+          <h3 class="font-mono text-[18px] font-bold text-yellow-500">
+            BEYOND THE SILHOUETTE
+          </h3>
+        </header>
+        
+        <p
+          class="mt-16 text-4xl leading-none tracking-tighter text-neutral-800"
+        >
+          Born from the subculture surrounding Playboi Carti’s record label,
+          Opium Fashion is a dark, aggressive fusion of high-end avant-garde and
+          raw underground streetwear. Characterized by monochromatic black
+          palettes, exaggerated silhouettes, heavy leather, and industrial
+          hardware, the aesthetic borrows heavily from iconic design houses like
+          Rick Owens and Balenciaga. It’s more than just a dress code—it’s a
+          dystopian, vampire-rockstar subculture that redefines modern
+          streetwear with an uncompromising edge.
+        </p>
+      </section>
+
+      <!-- section whats belongs to opium -->
+
+      <section
+        class="border-b-1 flex flex-row-reverse border-neutral-600 bg-black"
+      >
+        <div class="flex flex-col justify-center p-32">
+          <header>
+            <h2 class="text-[40px] font-semibold uppercase text-white">
+              What Belongs to Opium Fashion
+            </h2>
+          </header>
+          
+          <div class="mt-24 grid h-auto grid-cols-3 items-start gap-40">
+            <article
+              class="border-1 h-216 border-neutral-700 p-16 hover:border-neutral-200"
+            >
+              <h3
+                class="font-mono text-[17px] font-bold tracking-tighter text-neutral-300"
+              >
+                Primary Materials
+              </h3>
+              <p class="mt-8 text-neutral-400">
+                Matte black fabrics — leather, denim, Mesh, heavy cotton. Shine
+                is Vampire-Cosplay, not Opium.
+              </p>
+            </article>
+
+            <article
+              class="border-1 h-216 border-neutral-700 p-16 hover:border-neutral-200"
+            >
+              <h3
+                class="font-mono text-[17px] font-bold tracking-tighter text-neutral-300"
+              >
+                Hardware Utility
+              </h3>
+              <p class="mt-8 text-neutral-400">
+                Silver hardware only at functional points — zipper, buckle,
+                stud, ring. Not as a jewelry statement, but as a construction
+                detail.
+              </p>
+            </article>
+
+            <article
+              class="border-1 h-216 border-neutral-700 p-16 hover:border-neutral-200"
+            >
+              <h3
+                class="font-mono text-[17px] font-bold tracking-tighter text-neutral-300"
+              >
+                Upper Silhouette
+              </h3>
+              <p class="mt-8 text-neutral-400">
+                Tight Skin layer up top — Long-Sleeve, Mesh-Tank, Henley. Carti
+                rarely wears anything loose on the upper body.
+              </p>
+            </article>
+
+            <article
+              class="border-1 h-216 border-neutral-700 p-16 hover:border-neutral-200"
+            >
+              <h3
+                class="font-mono text-[17px] font-bold tracking-tighter text-neutral-300"
+              >
+                Lower Proportions
+              </h3>
+              <p class="mt-8 text-neutral-400">
+                Wide, heavy pants below — Cargo, Distressed-Jean, leather pants.
+                Skinny has been out since the WLR era; that vacuum gets filled
+                with volume.
+              </p>
+            </article>
+
+            <article
+              class="border-1 h-216 border-neutral-700 p-16 hover:border-neutral-200"
+            >
+              <h3
+                class="font-mono text-[17px] font-bold tracking-tighter text-neutral-300"
+              >
+                Surface Texture
+              </h3>
+              <p class="mt-8 text-neutral-400">
+                Distressed textures — ribbed, cut, artificially worn.
+                New-and-smooth is wrong.
+              </p>
+            </article>
+
+            <article
+              class="border-1 h-216 border-neutral-700 p-16 hover:border-neutral-200"
+            >
+              <h3
+                class="font-mono text-[17px] font-bold tracking-tighter text-neutral-300"
+              >
+                Footwear Standard
+              </h3>
+              <p class="mt-8 text-neutral-400">
+                Boot instead of Sneaker — Combat, Buckle-Boot, Chelsea with a
+                long shaft. Air Force 1 is not Opium, no matter the color.
+              </p>
+            </article>
+          </div>
+        </div>
+
+        <figure class="flex-shrink-0">
+          <img src="Media/OpiumFashion.jpg" alt="Opium Fashion Aesthetic Model" class="w-720" />
+        </figure>
+      </section>
+
+      <!-- section collection -->
+
+      <section
+        id="collection"
+        class="scroll-mt-80 bg-black px-72 pb-32 pt-48 text-white"
+      >
+      <header>
+        <h2 class="text-[32px] font-semibold uppercase">Our Collections</h2>
+      </header>
+
+        <div
+          class="no-scrollbar mt-32 flex snap-x snap-mandatory gap-16 overflow-x-auto"
+        >
+          <article class="flex-shrink-0 snap-center">
+            <a
+              href="https://fuga-studios.com/id/products/opium-faux-fur-puffer-jacket"
+              class="block cursor-pointer"
+            >
+              <img
+                src="Media/opium-faux-fur-puffer-jacket-schwarz-m-818.webp"
+                alt="Opium Faux Fur Puffer Jacket"
+                class="w-320"
+              />
+            </a>
+            <h3 class="mt-8 tracking-tighter text-neutral-300">
+              Opium Faux Fur Puffer Jacket
+            </h3>
+            <table class="-ml-5 mt-2 border-separate border-spacing-5">
+              <tr>
+                <td>
+                  <span
+                    class="block h-16 w-16 border border-white bg-[#0E0E0E]"
+                  ></span>
+                </td>
+                <td><span class="block h-16 w-16 bg-[#F5F1E8]"></span></td>
+              </tr>
+            </table>
+          </article>
+
+          <article class="flex-shrink-0 snap-center">
+            <a
+              href="https://fuga-studios.com/id/products/opium-crystal-collar-polo"
+              class="block cursor-pointer"
+            >
+              <img
+                src="Media/opium-crystal-collar-polo-schwarz-s-fuga-studios-314.jpg"
+                alt="Opium Crystal Collar Polo"
+                class="w-320"
+              />
+            </a>
+            <h3 class="mt-8 tracking-tighter text-neutral-300">
+              Opium Crystal Collar Polo
+            </h3>
+            <table class="-ml-5 mt-2 border-separate border-spacing-5">
+              <tr>
+                <td>
+                  <span
+                    class="block h-16 w-16 border border-white bg-[#0E0E0E]"
+                  ></span>
+                </td>
+                <td>
+                  <span
+                    class="block h-16 w-16 border border-white bg-[#6F6E6A]"
+                  ></span>
+                </td>
+                <td>
+                  <span
+                    class="block h-16 w-16 border border-white bg-[#F5F1E8]"
+                  ></span>
+                </td>
+              </tr>
+            </table>
+          </article>
+
+          <article class="flex-shrink-0 snap-center">
+            <a
+              href="https://fuga-studios.com/id/products/opium-wasteland-destroyer-set"
+              class="block cursor-pointer"
+            >
+              <img
+                src="Media/opium-wasteland-destroyer-set-fuga-studios-859.webp"
+                alt="opium-wasteland-destroyer-set"
+                class="w-320"
+              />
+            </a>
+            <h3 class="mt-8 tracking-tighter text-neutral-300">
+              Opium Wasteland Destroyer Set
+            </h3>
+            <table class="-ml-5 mt-2 border-separate border-spacing-5">
+              <tr>
+                <td>
+                  <span
+                    class="block h-16 w-16 border border-white bg-[#CCCCCC]"
+                  ></span>
+                </td>
+                <td>
+                  <span
+                    class="block h-16 w-16 border border-white bg-[#CCCCCC]"
+                  ></span>
+                </td>
+              </tr>
+            </table>
+          </article>
+
+          <article class="flex-shrink-0 snap-center">
+            <a
+              href="https://fuga-studios.com/id/products/opium-metal-ring-longsleeve"
+              class="block cursor-pointer"
+            >
+              <img
+                src="Media/opium-metal-ring-longsleeve-fuga-studios-583.webp"
+                alt="opium-metal-ring-longsleeve"
+                class="w-320"
+              />
+            </a>
+            <h3 class="mt-8 tracking-tighter text-neutral-300">
+              Opium Metal Ring Longsleeve
+            </h3>
+            <table class="-ml-5 mt-2 border-separate border-spacing-5">
+              <tr>
+                <td>
+                  <span
+                    class="block h-16 w-16 border border-white bg-[#0E0E0E]"
+                  ></span>
+                </td>
+                <td>
+                  <span
+                    class="block h-16 w-16 border border-white bg-[#F5F1E8]"
+                  ></span>
+                </td>
+              </tr>
+            </table>
+          </article>
+
+          <article class="flex-shrink-0 snap-center">
+            <a
+              href="https://fuga-studios.com/id/products/opium-cargo-shorts"
+              class="block cursor-pointer"
+            >
+              <img
+                src="Media/opium-cargo-shorts-schwarz-s-fuga-studios-672.jpg"
+                alt="opium-cargo-shorts"
+                class="w-320"
+              />
+            </a>
+            <h3 class="mt-8 tracking-tighter text-neutral-300">
+              Opium Cargo Shorts
+            </h3>
+            <table class="-ml-5 mt-2 border-separate border-spacing-5">
+              <tr>
+                <td>
+                  <span
+                    class="block h-16 w-16 border border-white bg-[#0E0E0E]"
+                  ></span>
+                </td>
+              </tr>
+            </table>
+          </article>
+
+          <article class="flex-shrink-0 snap-center">
+            <a
+              href="https://fuga-studios.com/id/products/opium-graffiti-art-wide-leg-jeans"
+              class="block cursor-pointer"
+            >
+              <img
+                src="Media/opium-graffiti-art-wide-leg-jeans-fuga-studios-441.webp"
+                alt="opium-graffiti-art-wide-leg-jeans"
+                class="w-320"
+              />
+            </a>
+            <h3 class="mt-8 tracking-tighter text-neutral-300">
+              Opium Graffiti Art Wide Leg Jeans
+            </h3>
+            <table class="-ml-5 mt-2 border-separate border-spacing-5">
+              <tr>
+                <td>
+                  <span
+                    class="block h-16 w-16 border border-white bg-[#2A3A5A]"
+                  ></span>
+                </td>
+              </tr>
+            </table>
+          </article>
+
+          <article class="flex-shrink-0 snap-center">
+            <a
+              href="https://fuga-studios.com/id/products/heavy-niche-metal-buckle-hollow-sense-of-design-shirt"
+              class="block cursor-pointer"
+            >
+              <img
+                src="Media/opium-mountain-carved-thick-plush-shirt-fuga-studios-159.webp"
+                alt="opium-mountain-carved-thick-plush-shirt"
+                class="w-320"
+              />
+            </a>
+            <h3 class="mt-8 tracking-tighter text-neutral-300">
+              Opium Mountain Carved Thick Plush Shirt
+            </h3>
+            <table class="-ml-5 mt-2 border-separate border-spacing-5">
+              <tr>
+                <td>
+                  <span
+                    class="block h-16 w-16 border border-white bg-[#0E0E0E]"
+                  ></span>
+                </td>
+              </tr>
+            </table>
+          </article>
+
+          <article class="flex-shrink-0 snap-center">
+            <a
+              href="https://fuga-studios.com/id/products/opium-dark-rose-distressed-blazer-set"
+              class="block cursor-pointer"
+            >
+              <img
+                src="Media/opium-dark-rose-distressed-blazer-set-fuga-studios-385.webp"
+                alt="opium-dark-rose-distressed-blazer-set"
+                class="w-320"
+              />
+            </a>
+            <h3 class="mt-8 tracking-tighter text-neutral-300">
+              Opium Dark Rose Distressed Blazer Set
+            </h3>
+            <table class="-ml-5 mt-2 border-separate border-spacing-5">
+              <tr>
+                <td>
+                  <span
+                    class="block h-16 w-16 border border-white bg-[#0E0E0E]"
+                  ></span>
+                </td>
+              </tr>
+            </table>
+          </article>
+        </div>
+      </section>
+
+      <!-- section styling rules -->
+      <section class="bg-white p-32">
+        <article class="flex flex-col items-center text-center">
+          <h2
+            class="text-[40px] font-semibold uppercase tracking-tight text-black"
+          >
+            Styling Rules
+          </h2>
+
+          <ul
+            class="m-0 mt-32 grid w-full list-none grid-cols-3 gap-x-40 gap-y-32 p-0"
+          >
+            <li
+              class="border-b-1 flex flex-col items-center border-neutral-200 pb-32"
+            >
+              <span
+                class="font-mono text-[14px] font-bold tracking-widest text-neutral-400"
+              >
+                01
+              </span>
+              <h3
+                class="mt-4 font-mono text-[20px] font-bold uppercase tracking-tighter text-black"
+              >
+                Proportion Contrast
+              </h3>
+              <p class="mt-12 text-[15px] leading-relaxed text-neutral-700">
+                Pair tight skin-layer tops with wide, exaggerated trousers.
+                Creating a drastic volume shift between upper and lower body is
+                the core foundation of the silhouette.
+              </p>
+            </li>
+
+            <li
+              class="border-b-1 flex flex-col items-center border-neutral-200 pb-32"
+            >
+              <span
+                class="font-mono text-[14px] font-bold tracking-widest text-neutral-400"
+              >
+                02
+              </span>
+              <h3
+                class="mt-4 font-mono text-[20px] font-bold uppercase tracking-tighter text-black"
+              >
+                Layering Mechanics
+              </h3>
+              <p class="mt-12 text-[15px] leading-relaxed text-neutral-700">
+                Stack distressed textures over mesh or fitted base pieces. Depth
+                comes from exposed seams, raw hems, and calculated distress
+                rather than bulky, oversized jackets.
+              </p>
+            </li>
+
+            <li
+              class="border-b-1 flex flex-col items-center border-neutral-200 pb-32"
+            >
+              <span
+                class="font-mono text-[14px] font-bold tracking-widest text-neutral-400"
+              >
+                03
+              </span>
+              <h3
+                class="mt-4 font-mono text-[20px] font-bold uppercase tracking-tighter text-black"
+              >
+                Strict Palette
+              </h3>
+              <p class="mt-12 text-[15px] leading-relaxed text-neutral-700">
+                Commit fully to monochromatic black or dark charcoal tones.
+                Contrast should be driven entirely by fabric textures and
+                hardware reflections, never by bright colors.
+              </p>
+            </li>
+
+            <li
+              class="border-b-1 flex flex-col items-center border-neutral-200 pb-32"
+            >
+              <span
+                class="font-mono text-[14px] font-bold tracking-widest text-neutral-400"
+              >
+                04
+              </span>
+              <h3
+                class="mt-4 font-mono text-[20px] font-bold uppercase tracking-tighter text-black"
+              >
+                Footwear Weight
+              </h3>
+              <p class="mt-12 text-[15px] leading-relaxed text-neutral-700">
+                Anchor the outfit with heavy, high-shaft combat or buckle boots.
+                The footwear must hold enough visual weight to balance out wide,
+                stacked pant legs.
+              </p>
+            </li>
+
+            <li
+              class="border-b-1 flex flex-col items-center border-neutral-200 pb-32"
+            >
+              <span
+                class="font-mono text-[14px] font-bold tracking-widest text-neutral-400"
+              >
+                05
+              </span>
+              <h3
+                class="mt-4 font-mono text-[20px] font-bold uppercase tracking-tighter text-black"
+              >
+                Hardware Placement
+              </h3>
+              <p class="mt-12 text-[15px] leading-relaxed text-neutral-700">
+                Keep silver hardware functional and integrated into the
+                garments. Utility zippers, harness buckles, and metallic studs
+                take priority over loose, decorative jewelry.
+              </p>
+            </li>
+
+            <li
+              class="border-b-1 flex flex-col items-center border-neutral-200 pb-32"
+            >
+              <span
+                class="font-mono text-[14px] font-bold tracking-widest text-neutral-400"
+              >
+                06
+              </span>
+              <h3
+                class="mt-4 font-mono text-[20px] font-bold uppercase tracking-tighter text-black"
+              >
+                Attitude & Stance
+              </h3>
+              <p class="mt-12 text-[15px] leading-relaxed text-neutral-700">
+                Maintain a raw, unpolished finish. The outfit should look
+                worn-in and utilitarian, avoiding any overly neat or tailored
+                appearance.
+              </p>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section
+        id="community"
+        class="border-t-1 border-b-1 border-neutral-600 bg-black px-72 py-48 text-white flex flex-col items-center"
+      >
+        <h2 class="text-3xl font-semibold uppercase font-mono">community</h2>
+
+        <div class="flex gap-32">
+          <article class="mt-32 flex-shrink-0">
+            <a
+              href="https://www.instagram.com/bloodyosiris?utm_source=ig_web_button_share_sheet&srtk=ZDNlZDc0MzIxNw=="
+              class="block cursor-pointer"
+              target="_blank"
+            >
+              <img
+                src="Media/bloodyosiris.jpg"
+                alt="instagram: bloodyosiris"
+                class="w-200"
+              />
+            </a>
+            <p class="mt-8 text-neutral-400">@bloodyosiris</p>
+          </article>
+          
+          <article class="mt-24 flex-shrink-0">
+            <a
+              href="https://www.instagram.com/opium_00pium?utm_source=ig_web_button_share_sheet&obrf=ZDNlZDc0MzIxNw=="
+              class="block cursor-pointer"
+              target="_blank"
+            >
+              <img
+                src="Media/opium_00pium.jpg"
+                alt="instagram: opium_00pium"
+                class="w-200"
+              />
+            </a>
+            <p class="mt-8 text-neutral-400">@opium_00pium</p>
+          </article>
+
+          <article class="mt-24 flex-shrink-0">
+            <a
+              href="https://www.instagram.com/rickowensonline?utm_source=ig_web_button_share_sheet&psln=ZDNlZDc0MzIxNw=="
+              class="block cursor-pointer"
+              target="_blank"
+            >
+              <img
+                src="Media/rickowensonline.png"
+                alt="instagram: rickowensonline"
+                class="w-200"
+              />
+            </a>
+            <p class="mt-8 text-neutral-400">@rickowensonline</p>
+          </article>
+        </div>
+
+
+      </section>
+
+      <!-- bagian form contact -->
+
+      <section
+        id="contact"
+        class="border-b-1 scroll-mt-90 flex justify-between border-neutral-600 bg-black px-72"
+      >
+        <div class="w-full max-w-[400px] py-40 text-white">
+          <span
+            class="font-mono text-xs uppercase tracking-[0.3em] text-neutral-500"
+            >Services</span
+          >
+          <h1
+            class="mt-8 text-[36px] font-bold uppercase leading-none tracking-tighter"
+          >
+            Private <br />Consultation
+          </h1>
+          <p class="mt-16 text-sm leading-relaxed text-neutral-400">
+            Tailored silhouettes, dark aesthetics, and visual identity curation.
+            Direct 1-on-1 styling suited for your proportion and presence.
+          </p>
+
+          <ul
+            class="mt-32 space-y-12 border-t border-neutral-800 pt-24 font-mono text-sm text-neutral-300"
+          >
+            <li class="flex items-center gap-8">
+              <span class="text-xs text-neutral-600">[01]</span> Personal
+              Wardrobe Curation
+            </li>
+            <li class="flex items-center gap-8">
+              <span class="text-xs text-neutral-600">[02]</span> Silhouette
+              Architecture & Proportion
+            </li>
+            <li class="flex items-center gap-8">
+              <span class="text-xs text-neutral-600">[03]</span> Event &
+              Editorial Styling
+            </li>
+          </ul>
+        </div>
+
+        <form
+          action="https://formspree.io/f/xoeeqove"
+          method="post"
+          class="border-l-1 w-720 border-neutral-600 px-32 py-40 text-neutral-300"
+        >
+          <h2 class="text-xl">Tell us how we can help</h2>
+
+          <div class="mt-16">
+            <label for="fullname" class="font-mono text-sm font-medium"
+              >Full name</label
+            >
+            <input
+              type="text"
+              id="fullname"
+              name="name"
+              required
+              placeholder="Rick Owens"
+              class="mt-4 block w-full rounded-sm bg-neutral-800 px-6 py-5 placeholder:text-neutral-600"
+            />
+          </div>
+
+          <div class="mt-16">
+            <label for="email" class="font-mono text-sm font-medium"
+              >Personal email</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="rick@darkstudio.com"
+              class="mt-4 block w-full rounded-sm bg-neutral-800 px-8 py-4 placeholder:text-neutral-600"
+            />
+          </div>
+
+          <div class="mt-16">
+            <label for="message" class="font-mono text-sm font-medium"
+              >Tell us about your requirements</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              required
+              placeholder="Describe your desired aesthetic, event details, or styling goals..."
+              rows="7"
+              class="mt-4 block w-full rounded-sm bg-neutral-800 px-6 py-5 placeholder:text-neutral-600"
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            class="mt-24 cursor-pointer rounded-lg bg-white px-16 py-8 text-black hover:bg-neutral-500"
+          >
+            Submit Request
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <!-- footer -->
+
+    <footer
+      class="border-t border-neutral-900 bg-black p-32 font-mono text-xs uppercase tracking-widest text-white"
+    >
+      <div
+        class="flex flex-col items-start justify-between gap-32 md:flex-row md:items-end"
+      >
+        <div>
+          <h3 class="text-base font-bold tracking-tighter text-white">OPIUM</h3>
+          <p class="mt-4 font-sans text-[10px] lowercase text-neutral-500">
+            &copy; 2026. all rights reserved.
+          </p>
+        </div>
+
+        <div class="hidden text-[10px] text-neutral-500 md:block">
+          <span>JAKARTA / 106.8456° E</span>
+        </div>
+
+        <div class="flex gap-24 text-neutral-400">
+          <a
+            href="https://www.instagram.com/opium_00pium/?utm_source=ig_web_button_share_sheet"
+            target="_blank"
+            class="transition-colors hover:text-white"
+          >
+            [IG]
+          </a>
+          <a href="#" class="transition-colors hover:text-white">
+            [BACK TO TOP ↑]
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
